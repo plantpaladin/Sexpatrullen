@@ -30,7 +30,7 @@ public class PlayerUI : MonoBehaviour
             float a = CrossPlatformInputManager.GetAxis(m_accelInput);
             float b = CrossPlatformInputManager.GetAxis(m_brakeInput);
             m_Car.Move(h, a, b);
-
         }
+
     }
 }
